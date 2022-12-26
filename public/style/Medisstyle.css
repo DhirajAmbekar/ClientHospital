@@ -1,0 +1,19 @@
+@media screen and (max-width: 425px){
+    html{
+       display: flex;
+
+    }
+    body {
+      background-color: rgb(255, 255, 255);
+      height:auto;
+    }
+    .parent-main{
+        flex-direction: column;
+    }
+    .client-result{
+        height: 600px;
+        width: 100%;
+        margin: 0;
+        background-color: rgba(255, 166, 0, 0.932);
+    }
+  }
