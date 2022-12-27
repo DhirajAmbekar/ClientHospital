@@ -1,0 +1,44 @@
+@media screen and (max-width: 425px){
+    html{
+       display: flex;
+       background-color: white;
+
+    }
+    body {
+      background-color: rgb(255, 255, 255);
+      height:auto;
+    }
+    .parent-main{
+        flex-direction: column;
+    }
+    
+    .sup1{
+      width: 100%;
+      display: block;
+      transform: translateX(0px);
+      border:none;
+    }
+    .slider-main{
+      display: none;
+    }
+    .client-result{
+      height: 660px;
+    }
+    .main_ovarian{
+      height: 690px;
+    }
+    .main-nextstep{
+      height: auto;
+      padding-bottom: 100px;
+    }
+      .senior-dev{
+        padding-bottom: 100px;
+        padding-top: 40px;
+    }
+    .main-botm{
+      bottom: 0;
+    }
+    .footer{
+      bottom: 0;
+    }
+  }
