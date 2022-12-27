@@ -7,6 +7,7 @@
     body {
       background-color: rgb(255, 255, 255);
       height:auto;
+      overflow-x: hidden;
     }
     .parent-main{
         flex-direction: column;
@@ -22,10 +23,13 @@
       display: none;
     }
     .client-result{
-      height: 660px;
+      height: 790px;
     }
     .main_ovarian{
-      height: 690px;
+      height: 780px;
+    }
+    .main-line-graphs{
+      height: 780px;
     }
     .main-nextstep{
       height: auto;
@@ -41,4 +45,23 @@
     .footer{
       bottom: 0;
     }
+    .main-loader{
+      position: absolute;
+      top: 0;
+      right: 0px;
+      left: 0px;
+      background-color: white;
+      width: 500px;
+      height:100%;
+      z-index:10;
+      
+  }
+  .un{
+    opacity: 0;
+    background-color: transparent;
+    transition: all 1s;
+    z-index: -1;
+  }
+
+
   }

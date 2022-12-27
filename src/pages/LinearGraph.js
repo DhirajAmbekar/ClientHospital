@@ -14,6 +14,7 @@ function LinearGraph() {
     return (
         <>
         <div className={state.count ===5? 'sup2': 'sup1'}>
+            <div className='main-line-graphs'>
             <div className='main-abbe'>
                 <div className='row'>
                     <div className='col-6'>
@@ -111,6 +112,7 @@ function LinearGraph() {
 
                         <span className='linear-tt'>100</span>
                     </div>
+            </div>
             </div>
             </div>
         </>

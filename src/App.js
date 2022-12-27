@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from 'react-bootstrap/Carousel';
 import User from './pages/User';
 import Result from './pages/Result';
 import Ovarian from './pages/Ovarian';
@@ -10,13 +9,13 @@ import Graph from './pages/Graph';
 import LinearGraph from './pages/LinearGraph';
 import NextPage from './pages/NextPage';
 import DoctorList from './pages/DoctorList';
-
-
+import Loader from './pages/Loader'
 
 function App() {
   
   return (
     <>
+    <Loader />
     <div className="parent-main">
     <User />
     <Result />
@@ -26,14 +25,8 @@ function App() {
     <NextPage/>
     <DoctorList />
     <Physics/> 
-
     </div>
-    
-
-
-
     <Sliders/>
-
     </>  
   );
 }
