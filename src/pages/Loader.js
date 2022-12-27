@@ -11,7 +11,7 @@ function Loader(){
     
     return(
     <>
-        <div className={load.length===0?"main-loader vi" : "un main-loader"}>
+        <div className={load.length===0?"main-loader" : "un main-loader"}>
             <div>
                 <img src="./asstes/loader.png"></img>
             </div>
