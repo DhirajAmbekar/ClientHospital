@@ -19,9 +19,39 @@ body {
     height: 876px;
     margin: auto;
     position: relative;
-    overflow-x: hidden;
 }
-
+.main-loader{
+    position: absolute;
+    top:0;
+    right:-377px;
+    background-color: white;
+    width: 1400px;
+    height: 875px;
+    z-index: 10;
+}
+.main-loader img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 300px;
+    left: 52%;
+    animation: loaderdance 1s infinite;
+    animation-direction: alternate;
+}
+@keyframes loaderdance {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.un{
+    opacity: 0;
+    background-color: transparent;
+    transition: all 1s;
+    z-index: -1;
+}
 .parent-main {
     width: 595px;
     background-color: white;
@@ -296,7 +326,7 @@ table {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-
+    
 }
 .main-graph1 {
     width: 40%;
@@ -888,7 +918,6 @@ table {
 .spe1{
     transform: translateX(-500px); 
 }
-
 .spe3{
     transform: translateX(-1500px); 
 }
