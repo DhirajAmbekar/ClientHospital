@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ClientHospital/static/css/main.44f8b8b5.css",
-    "main.js": "/ClientHospital/static/js/main.35f6fb87.js",
+    "main.js": "/ClientHospital/static/js/main.b24040e3.js",
     "static/js/787.b6fd2ddb.chunk.js": "/ClientHospital/static/js/787.b6fd2ddb.chunk.js",
     "index.html": "/ClientHospital/index.html",
     "main.44f8b8b5.css.map": "/ClientHospital/static/css/main.44f8b8b5.css.map",
-    "main.35f6fb87.js.map": "/ClientHospital/static/js/main.35f6fb87.js.map",
+    "main.b24040e3.js.map": "/ClientHospital/static/js/main.b24040e3.js.map",
     "787.b6fd2ddb.chunk.js.map": "/ClientHospital/static/js/787.b6fd2ddb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.35f6fb87.js"
+    "static/js/main.b24040e3.js"
   ]
 }
