@@ -18,9 +18,9 @@ function App() {
   return (
     <>
     <div className="parent-main">
-      <User />
-     <Result />
-      <Ovarian/>
+    <User />
+    <Result />
+    <Ovarian />
     <Graph />
     <LinearGraph/>
     <NextPage/>

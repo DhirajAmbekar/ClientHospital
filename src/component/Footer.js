@@ -14,14 +14,18 @@ function Footer() {
     <>
     
     <div className='footer'>
-        <div className='logo'>Logo</div>
-        <div>{Data.name}</div>
+      <div className='footer-iner1'> 
+      <div className='logo'>Logo</div>
+      </div>
+      <div className='footer-iner2'>
+      <div>{Data.name}</div>
         <span>.</span>
         <div>Age: {Data.age}</div>
         <span>.</span>
         <div>Analysis: {Data.footer_date}</div>
         <span>.</span>
         <div>Order ID: {Data1.orderid}</div>
+      </div>
     </div>    
     </>
   )

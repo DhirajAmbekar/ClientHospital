@@ -44,20 +44,21 @@ function Result() {
                }
             </tbody>
         </table> */}
-                
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Mini Test
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span>AMH </span>Anit-mullerian hormone </td>
-                            <td>{Data.value} ng/mL</td>
-                            <td className={
+                <div className='mini-main'>
+                    <div className='mini-test1'>
+                        Mini Test
+                    </div>  
+                    <div className='mini-test2'>
+                        <div className='mini-title'>
+                            AMH
+                        </div>
+                        <div className='mini-bod'>
+                        Anit-mullerian hormone
+                        </div>
+                        <div className='mini-final'>
+                        <td>{Data.value} ng/mL </td>
+                        <div>
+                        <td className={
                                 Data.value > 0 && Data.value < 2 ? "Below" : Data.value >= 2 && Data.value <= 4 ? "optio" : Data.value > 4 ? 'above ' : ""
                             }>
                                 {Data.value > 0 && Data.value < 2 ?
@@ -66,31 +67,50 @@ function Result() {
                                         : Data.value > 4 ? 'Above Average'
                                             : ""}
                             </td>
-                        </tr>
-                        <tr>
-                            <td><span>E2 </span>Estradiol </td>
-                            <td>{Data2.value} pg/mL</td>
-                            <td className={
+                        </div> 
+                        </div>
+                    </div>
+                    <div className='mini-test2'>
+                        <div className='mini-title'>
+                            E2
+                        </div>
+                        <div className='mini-bod'>
+                        Estradiol 
+                        </div>
+                        <div className='mini-final'>
+                        <td>{Data2.value} pg/mL </td>
+                        <div>
+                        <td className={
                                 Data2.value > 0 && Data2.value < 20 ? "Below" : Data2.value >= 20 && Data2.value <= 50 ? "optio" : Data2.value > 50 ? 'above ' : ""
                             }>
                                 {Data2.value > 0 && Data2.value < 20 ? "Below Average" : Data2.value >= 20 && Data2.value <= 50 ? "Optimal" : Data2.value > 50 ? 'Above Average' : ""}
                             </td>
-                        </tr>
-                        <tr>
-                            <td><span>FSH </span>Folllice-stimulating hormone </td>
-                            <td>{Data3.value} mlU/ml</td>
-                            <td className={
+                        </div> 
+                        </div>
+                    </div>
+                    <div className='mini-test2'>
+                        <div className='mini-title'>
+                        FSH
+                        </div>
+                        <div className='mini-bod'>
+                        Folllice-stimulating hormone
+                        </div>
+                        <div className='mini-final'>
+                        <td>{Data3.value} mlU/ml </td>
+                        <div>
+                        <td className={
                                 Data3.value > 0 && Data3.value < 2.5 ? "Below" : Data3.value >= 2.5 && Data3.value <= 12 ? "optio" : Data3.value > 12 ? 'above ' : ""
                             }>
                                 {Data3.value > 0 && Data3.value < 2.5 ? "Below Average" : Data3.value >= 2.5 && Data3.value <= 12 ? "Optimal" : Data3.value > 12 ? 'Above Average' : ""}
                             </td>
-                        </tr>
-                    </tbody>
-                </table>
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+               
             </div>
             <Footer/>
             </div>
-            {/* <Slider/> */}
         </>
     )
 }

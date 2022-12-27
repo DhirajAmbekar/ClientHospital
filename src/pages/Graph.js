@@ -70,7 +70,7 @@ function Graph() {
                 This means: your AMH levels indicate that you have the average number of eggs for your age. Yay!
                 </div>
             </div>
-            <div>
+            <div className='main-graph2'>
                 <h6>WHAT IS AMH?</h6>
                 <div>
                 AMH is produced by the granulosa cells in your ovarian follicles,
@@ -169,7 +169,7 @@ function Graph() {
                 </div>
 
             </div>
-            <div>
+            <div className="main-graph3">
                 <h6>
                 HEADS UP
                 </h6>
